@@ -1,6 +1,5 @@
+import productos from './productos.mjs'
 
-
-
-function obtenerProductos(req,res){
+export function obtenerProductos(req, res){
     res.json(productos)
 }
